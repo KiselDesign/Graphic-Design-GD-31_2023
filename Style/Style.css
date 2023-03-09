@@ -37,23 +37,6 @@ a {
 	color: #fff;
     background-color: #000;
 }
-main {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-.Title {
- 	font-size: 5em;
-	font-family: 'Cardo', serif;
-	width: 40%;
-	line-height: 1;
-    letter-spacing: 1px;
-    margin-bottom: 23px;
-}
-p {
-	width: 37%;
-    line-height: 1.25;
-    letter-spacing: 0,4px;
-}
 .btn-black {
 	color: #fff;
 	display: block;
@@ -62,11 +45,70 @@ p {
     background-color: #000;
     font-weight: 900;
     padding: 16px 50px;
-    border: 3px solid #fff;
+    border: 3px solid #000;
     border-radius: 10px;
     margin-top: 38px;
+}
+.btn-black:hover {
+	color: #000;
+	background-color: #fff;
+}
+.btn-white {
+	color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+    padding: 14px 58px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.btn-white:hover {
+	color: #000;
+    background-color: #fff;
+}
+main {
+	max-width: 1200px;
+	margin: 0 auto 160px;
+}
+.Title {
+ 	font-size: 5em;
+	font-family: 'Cardo', serif;
+	width: 440px;
+	line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+}
+.wrap {
+	width: 470px;
+	margin: 0 auto;
+
+}
+.title-white {
+	padding-top: 50px;
+	margin: 0;
+	font-size: 3.5em;
+	color: #fff;
+	font-family: 'Cardo', serif;
+	line-height: 1;
+}
+.text-white{
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 58px;
+	color: #fff;
+}
+.text-black {
+	width: 37%;
+    line-height: 1.25;
+    letter-spacing: 0,4px;
 }
 .Travel_img {
 	
 	float: right;
+}
+.page-memory {
+	text-align: center;
+	background-color: #000;
+	padding-bottom: 70px;
 }
