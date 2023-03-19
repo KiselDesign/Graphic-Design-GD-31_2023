@@ -68,8 +68,15 @@ a {
     background-color: #fff;
 }
 main {
+	padding-bottom: 160px;
+}
+.wrap {
 	max-width: 1200px;
-	margin: 0 auto 160px;
+	margin: 0 auto;
+}
+.grid {
+	display: flex;
+	justify-content: space-between;
 }
 .Title {
  	font-size: 5em;
@@ -79,7 +86,7 @@ main {
     letter-spacing: 1px;
     margin-bottom: 23px;
 }
-.wrap {
+.wrap-memory {
 	width: 470px;
 	margin: 0 auto;
 
@@ -99,16 +106,41 @@ main {
 	color: #fff;
 }
 .text-black {
-	width: 37%;
     line-height: 1.25;
-    letter-spacing: 0,4px;
+    letter-spacing: -0.2px;
+    text-align: justify;
+}
+.travel-box {
+	width: 425px;
 }
 .Travel_img {
-	
 	float: right;
 }
 .page-memory {
 	text-align: center;
 	background-color: #000;
 	padding-bottom: 70px;
+}
+.page-choice {
+
+}
+.item-choice {
+	padding-top: 166px;
+	width: 363px;
+}
+.hr-line {
+	width: 50px;
+	border-top: 3px solid #000;
+	margin: 28px auto 26px 0;
+}
+.title-choice {
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+	line-height: 1;
+	letter-spacing: 0.5px;
+	width: 70%;
+	margin: 0 0 30px 0;
+}
+.icon-vector {
+	width: 72px;
 }
