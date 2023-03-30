@@ -161,7 +161,7 @@ main {
 }
 .underline {
   text-decoration: none;
-  border-bottom: 6px solid; #000;
+  border-bottom: 6px solid #000;
   padding-bottom: 3px;
 }
 .italic {
